@@ -18,37 +18,35 @@ pattern as well as Architecture Components.
 - [Screenshots](#screenshots)
 
 ## Architecture
+# Fragment
+  - Represents the View layer in MVVM.
+  - Responsible for displaying data to the user and receiving user input.
+  - Observes data from the ViewModel and updates the UI accordingly.
+# ViewModel
+  - Acts as a bridge between the View (Fragment) and the Repository.
+  - Holds and manages UI-related data in a lifecycle-conscious way.
+ Fetches data from the Repository and exposes it to the Fragment via LiveData.
+# Repository
+  - The single source of truth for the application.
+  - Handles data operations and abstracts the logic of whether data should be fetched from the local database (LocalService) or the remote API (RemoteService).
+  - Returns data in the form of ModelJson or NetworkResult.
+# LocalService
+  - Manages data stored in the Room Database.
+  - Communicates with the DAO (Data Access Object) layer to perform database operations.
+  - Converts data entities into app-friendly formats.
+# RemoteService
+  - Handles communication with remote APIs using Retrofit.
+  - Parses responses using Moshi for JSON serialization/deserialization.
+  - Returns data as Retrofit Response objects or processed ModelJson.
+# Database
+  - Uses Room for local storage.
+  - Includes:  Defines the structure of the database table.
+  - Entity: Defines the structure of the database table.
+  - DAO: Provides methods for database queries.
+# API
+  - Provides remote data via HTTP requests.
+  - Communicates with RemoteService using Retrofit.
 
-1. Fragment
-Represents the View layer in MVVM.
-Responsible for displaying data to the user and receiving user input.
-Observes data from the ViewModel and updates the UI accordingly.
-2. ViewModel
-Acts as a bridge between the View (Fragment) and the Repository.
-Holds and manages UI-related data in a lifecycle-conscious way.
-Fetches data from the Repository and exposes it to the Fragment via LiveData.
-3. Repository
-The single source of truth for the application.
-Handles data operations and abstracts the logic of whether data should be fetched from the local database (LocalService) or the remote API (RemoteService).
-Returns data in the form of ModelJson or NetworkResult.
-4. LocalService
-Manages data stored in the Room Database.
-Communicates with the DAO (Data Access Object) layer to perform database operations.
-Converts data entities into app-friendly formats.
-5. RemoteService
-Handles communication with remote APIs using Retrofit.
-Parses responses using Moshi for JSON serialization/deserialization.
-Returns data as Retrofit Response objects or processed ModelJson.
-6. Database
-Uses Room for local storage.
-Includes:
-Entity: Defines the structure of the database table.
-DAO: Provides methods for database queries.
-7. API
-Provides remote data via HTTP requests.
-Communicates with RemoteService using Retrofit.
-
-![Data Flow Diagram](media/arch-flow.png)
 
 The three layered architectural approach is majorly guided by clean architecture which provides
 a clear separation of concerns with its Abstraction Principle.
