@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/bottom_sheet_currenvy_layout.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/bottom_sheet_currenvy_layout.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/dialog_confirm.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_confirm.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/dialog_error.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_error.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/dialog_notify.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_notify.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/fragment_currency_bottom_sheet.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/fragment_currency_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/currency_item.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/currency_item.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/activity_splash.xml"
+    }
+]

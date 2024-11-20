@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+                 
+                            
+                                                                        
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_home_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <!-- Thêm phần layout chuyển đổi tiền tệ vào đây -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Top Bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Hello, "
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LE VIET ANH"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Tab Layout -->
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/blue"
+                app:tabSelectedTextColor="@color/blue"
+                app:tabTextColor="@color/gray">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exchange Currency" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Currency Rates" />
+            </com.google.android.material.tabs.TabLayout>
+
+            <!-- Currency Exchange Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- From Currency -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/currency_background"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtFromCurrency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:text="VND"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <EditText
+                            android:id="@+id/editTextFromAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:textSize="24sp"
+                            android:inputType="numberDecimal"
+                            android:text="0"
+                            android:textAlignment="textEnd"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textViewFromBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp"
+                        android:text="Balance: 3,500 $" />
+                </LinearLayout>
+
+                <!-- Swap Button -->
+                <ImageButton
+                    android:id="@+id/buttonSwap"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle_background"
+                    android:src="@drawable/ic_swap"/>
+
+                <!-- To Currency -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/currency_background"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtToCurrency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:text="USD"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/textViewToAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:textAlignment="textEnd"
+                            android:text="0"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textViewToBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp"
+                        android:text="Balance: 0 €" />
+                </LinearLayout>
+
+                <!-- Convert Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonConvert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:paddingVertical="12dp"
+                    android:text="CONVERT"
+                    android:textSize="16sp"
+                    app:cornerRadius="24dp"
+                    android:backgroundTint="@color/blue" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

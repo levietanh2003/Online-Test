@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fatherofapps.androidbase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.REORDER_TASKS" />
+13-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:25:5-72
+13-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:25:22-69
+14
+15    <application
+15-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:8:5-31:19
+16        android:name="com.fatherofapps.androidbase.CustomApplication"
+16-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:15:9-42
+17        android:allowBackup="true"
+17-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:9:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/levietanh0108/.gradle/caches/transforms-3/cb5cd0b22dfc559dc99c518104c2815a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.FatherOfApps" >
+25-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:14:9-50
+26        <activity
+26-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/debug/AndroidManifest.xml:6:9-8:41
+27            android:name="com.fatherofapps.androidbase.HiltTestActivity"
+27-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/debug/AndroidManifest.xml:7:13-73
+28            android:exported="false" />
+28-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/debug/AndroidManifest.xml:8:13-37
+29        <activity
+29-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:17:9-20:55
+30            android:name="com.fatherofapps.androidbase.activities.MainActivity"
+30-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:20:13-52
+31            android:exported="true"
+31-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:18:13-36
+32            android:screenOrientation="portrait" />
+32-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:19:13-49
+33        <activity
+33-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:21:9-30:20
+34            android:name="com.fatherofapps.androidbase.activities.SplashActivity"
+34-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:24:13-54
+35            android:exported="true"
+35-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:22:13-36
+36            android:screenOrientation="portrait" >
+36-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:23:13-49
+37            <intent-filter>
+37-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:17-69
+38-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:28:17-77
+40-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:28:9-37:20
+44            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+44-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:29:13-96
+45            android:exported="true"
+45-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:30:13-36
+46            android:multiprocess="true"
+46-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:31:13-40
+47            android:taskAffinity=""
+47-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:32:13-36
+48            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+48-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:33:13-78
+49            <intent-filter>
+49-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:17-69
+50-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:25-66
+51            </intent-filter>
+52        </activity>
+53
+54        <uses-library
+54-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+55            android:name="androidx.window.extensions"
+55-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+57        <uses-library
+57-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+58            android:name="androidx.window.sidecar"
+58-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/7c5615459f7408b7b3862dbdeb6144a8/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+60
+61        <service
+61-->[androidx.room:room-runtime:2.4.2] /Users/levietanh0108/.gradle/caches/transforms-3/487b4259dc407ec4979c33a27a17e4da/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+62            android:name="androidx.room.MultiInstanceInvalidationService"
+62-->[androidx.room:room-runtime:2.4.2] /Users/levietanh0108/.gradle/caches/transforms-3/487b4259dc407ec4979c33a27a17e4da/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+63            android:directBootAware="true"
+63-->[androidx.room:room-runtime:2.4.2] /Users/levietanh0108/.gradle/caches/transforms-3/487b4259dc407ec4979c33a27a17e4da/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+64            android:exported="false" />
+64-->[androidx.room:room-runtime:2.4.2] /Users/levietanh0108/.gradle/caches/transforms-3/487b4259dc407ec4979c33a27a17e4da/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+65
+66        <activity
+66-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+67            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+67-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+68            android:exported="true"
+68-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+69            android:theme="@android:style/Theme" >
+69-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+70            <intent-filter>
+70-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:17-69
+71-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:25-66
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+75            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+75-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+76            android:exported="true"
+76-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+77            android:theme="@android:style/Theme" >
+77-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+78            <intent-filter>
+78-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:17-69
+79-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:25-66
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+83            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+83-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+84            android:exported="true"
+84-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+85            android:theme="@android:style/Theme.Dialog" >
+85-->[androidx.test:core:1.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/075f37d501aa43a31a796fbb61f568d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+86            <intent-filter>
+86-->[androidx.fragment:fragment-testing:1.4.1] /Users/levietanh0108/.gradle/caches/transforms-3/24c18a12cd6cb2a9a54fb970b8a14db2/transformed/jetified-fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:17-69
+87-->/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/AndroidManifest.xml:26:25-66
+88            </intent-filter>
+89        </activity>
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+93            android:authorities="com.fatherofapps.androidbase.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/levietanh0108/.gradle/caches/transforms-3/4ac6b48315b229922fb7be50e6fcd63b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/a13c36c73dfd101a5573ca35a29fb8c5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/a13c36c73dfd101a5573ca35a29fb8c5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/levietanh0108/.gradle/caches/transforms-3/a13c36c73dfd101a5573ca35a29fb8c5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>

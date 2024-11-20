@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_roboto_mono_variable_font_wght.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_roboto_mono_variable_font_wght.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_background_button_normal.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/background_button_normal.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_activity_main.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_black.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_black.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_bold_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_bold_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_currency_item.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/currency_item.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_keyboard_button_background.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/keyboard_button_background.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_home_spaceship_launch.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/home_spaceship_launch.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_background_text_button.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/background_text_button.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_light_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_light_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_bold.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_bold.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_roboto_bold.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_roboto_bold.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_currency_background.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/currency_background.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_background_edittext_normal.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/background_edittext_normal.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_dialog_confirm.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_confirm.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_regular.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_regular.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_background_cta_button.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/background_cta_button.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_bottom_sheet_currenvy_layout.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/bottom_sheet_currenvy_layout.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_thin_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_thin_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_thin.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_thin.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/navigation_main_nav.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/navigation/main_nav.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_fragment_currency_bottom_sheet.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/fragment_currency_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_medium_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_medium_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_fragment_home.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/generated/res/pngs/dev/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_dialog_error.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_error.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_dialog_notify.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/dialog_notify.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/layout_activity_splash.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_medium.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_medium.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_black_italic.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_black_italic.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_circle_background.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/circle_background.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/font_app_font_light.ttf.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/font/app_font_light.ttf"
+    },
+    {
+        "merged": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/build/intermediates/merged_res/devDebug/drawable_ic_swap.xml.flat",
+        "source": "/Users/levietanh0108/Desktop/Challenge_1/fatherofapps-android-mvvm/app/src/main/res/drawable/ic_swap.xml"
+    }
+]

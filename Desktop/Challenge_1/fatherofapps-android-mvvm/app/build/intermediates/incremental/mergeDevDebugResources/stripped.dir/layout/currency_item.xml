@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <!-- LinearLayout chính chứa các phần tử mã tiền tệ và tên tiền tệ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Mã tiền tệ -->
+        <TextView
+            android:id="@+id/currency_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/app_font_roboto_bold"
+            android:gravity="start|center_vertical"/>
+
+        <!-- Tên tiền tệ -->
+        <TextView
+            android:id="@+id/currency_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_roboto_mono_variable_font_wght"
+            android:text="United States Dollar"
+            android:textSize="16sp"
+            android:gravity="start|center_vertical"/>
+
+    </LinearLayout>
+
+    <!-- Đường kẻ phân cách nằm ngoài LinearLayout chính -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>
