@@ -19,10 +19,34 @@ pattern as well as Architecture Components.
 
 ## Architecture
 
-The Application is split into a three layer architecture inorder to provide clean separation of concerns - making the code easier to navigate and maintain.
-- Data - Layer that holds APIs, Database, Cache
-- Domain - Layer that holds Use Cases, and Model Objects. Business logic happens here.
-- Application - Layer that holds presentation, Android components, Viewmodels, Dagger components/modules handles Dependency Injection, etc. MVVM exists at this layer.
+1. Fragment
+Represents the View layer in MVVM.
+Responsible for displaying data to the user and receiving user input.
+Observes data from the ViewModel and updates the UI accordingly.
+2. ViewModel
+Acts as a bridge between the View (Fragment) and the Repository.
+Holds and manages UI-related data in a lifecycle-conscious way.
+Fetches data from the Repository and exposes it to the Fragment via LiveData.
+3. Repository
+The single source of truth for the application.
+Handles data operations and abstracts the logic of whether data should be fetched from the local database (LocalService) or the remote API (RemoteService).
+Returns data in the form of ModelJson or NetworkResult.
+4. LocalService
+Manages data stored in the Room Database.
+Communicates with the DAO (Data Access Object) layer to perform database operations.
+Converts data entities into app-friendly formats.
+5. RemoteService
+Handles communication with remote APIs using Retrofit.
+Parses responses using Moshi for JSON serialization/deserialization.
+Returns data as Retrofit Response objects or processed ModelJson.
+6. Database
+Uses Room for local storage.
+Includes:
+Entity: Defines the structure of the database table.
+DAO: Provides methods for database queries.
+7. API
+Provides remote data via HTTP requests.
+Communicates with RemoteService using Retrofit.
 
 ![Data Flow Diagram](media/arch-flow.png)
 
