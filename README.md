@@ -1,6 +1,4 @@
-# Online Test [mvvmclean]
-
-
+# Online Test 
 
 ## Challenge_1
 
@@ -47,9 +45,6 @@ pattern as well as Architecture Components.
   - Provides remote data via HTTP requests.
   - Communicates with RemoteService using Retrofit.
 
-
-The three layered architectural approach is majorly guided by clean architecture which provides
-a clear separation of concerns with its Abstraction Principle.
 
 ## Features
  
@@ -104,3 +99,6 @@ Following are the Libraries used:
   <img src="https://github.com/user-attachments/assets/fcd460ef-0003-4af7-b6ef-6c2acdee669f" title="Convert from USD to VND" width="285" />
 </p>
 
+## Challenge_2
+
+- Link: https://drive.google.com/drive/folders/19ABlcX7wrQBsUNedV_0ZiGMBnFKMFztt?usp=sharing
