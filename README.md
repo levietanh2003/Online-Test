@@ -18,32 +18,32 @@ pattern as well as Architecture Components.
 - [Screenshots](#screenshots)
 
 ## Architecture
-# Fragment
+### Fragment
   - Represents the View layer in MVVM.
   - Responsible for displaying data to the user and receiving user input.
   - Observes data from the ViewModel and updates the UI accordingly.
-# ViewModel
+### ViewModel
   - Acts as a bridge between the View (Fragment) and the Repository.
   - Holds and manages UI-related data in a lifecycle-conscious way.
  Fetches data from the Repository and exposes it to the Fragment via LiveData.
-# Repository
+### Repository
   - The single source of truth for the application.
   - Handles data operations and abstracts the logic of whether data should be fetched from the local database (LocalService) or the remote API (RemoteService).
   - Returns data in the form of ModelJson or NetworkResult.
-# LocalService
+### LocalService
   - Manages data stored in the Room Database.
   - Communicates with the DAO (Data Access Object) layer to perform database operations.
   - Converts data entities into app-friendly formats.
-# RemoteService
+### RemoteService
   - Handles communication with remote APIs using Retrofit.
   - Parses responses using Moshi for JSON serialization/deserialization.
   - Returns data as Retrofit Response objects or processed ModelJson.
-# Database
+### Database
   - Uses Room for local storage.
   - Includes:  Defines the structure of the database table.
   - Entity: Defines the structure of the database table.
   - DAO: Provides methods for database queries.
-# API
+### API
   - Provides remote data via HTTP requests.
   - Communicates with RemoteService using Retrofit.
 
