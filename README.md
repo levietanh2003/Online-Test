@@ -97,6 +97,10 @@ Following are the Libraries used:
   <img src="https://github.com/user-attachments/assets/08ed548e-1b6d-4993-9baf-e70b0991e04a" title="Home" width="285" />
   <img src="https://github.com/user-attachments/assets/98b16fe5-9faa-49c3-99af-7c4434f69986" title="Convert from VND to USD" width="285" />
   <img src="https://github.com/user-attachments/assets/fcd460ef-0003-4af7-b6ef-6c2acdee669f" title="Convert from USD to VND" width="285" />
+  <img src="https://github.com/user-attachments/assets/b9e9188a-3919-465d-9404-419723be4f47" title="Chart Bar convert from USD to VND 3DAY" width="285" />
+  <img src="https://github.com/user-attachments/assets/a537bddb-8704-48d6-ab3f-dad54768978d" title="Chart Bar convert from USD to VND 6DAY" width="285" />
+  <img src="https://github.com/user-attachments/assets/0c79150d-f44a-4fd6-adaa-74973ed981f7" title="Chart Bar convert from USD to VND 9DAY" width="285" />
+  <img src="https://github.com/user-attachments/assets/848de741-400d-426e-92cd-13d76f6f99a7" title="Chart Bar convert from USD to VND 12DAY" width="285" />
 </p>
 
 ## Challenge_2
